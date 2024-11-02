@@ -50,23 +50,6 @@
       }
     },
     {
-      "key": "梦幻心移",
-      "name": "♨梦幻心移｜内部畅通",
-      "playerType": 1,
-      "type": 3,
-      "changeable": 0,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "http://我不是.摸鱼儿.com/json/js/mhxy.js",
-      "ext": {
-        "host": "http://cmsytv.lyyytv.cn/api.php/app/",
-        "*": [
-          "http://103.38.82.59:9527/zhuimi666.php?url="
-        ]
-      }
-    },
-    {
       "key": "完美弹幕",
       "name": "🌞完美｜弹幕",
       "type": 3,

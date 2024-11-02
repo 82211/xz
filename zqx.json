@@ -48,13 +48,16 @@
         "site": "http://mogg.小胡.top",
         "danmu": true
       }
-    },
-    {
-      "key": "完美弹幕",
-      "name": "🌞完美｜弹幕",
+    },{
+      "key": "企鹅崽崽",
+      "name": "🐧企鹅崽崽",
       "type": 3,
-      "api": "./摸鱼lib/apiv205drpy.min.js",
-      "ext": "./摸鱼lib/完美弹幕.js"
+      "api": "http://xn--v6q485m.xn--esstbv41m2ra.icu/js/smdy.js",
+      "style": {
+        "type": "rect",
+        "ratio": 0.65
+      },
+      "ext": "http://xn--v6q485m.xn--esstbv41m2ra.icu/js/wj/企鹅崽崽.js"
     },
     {
       "key": "hipy_js_腾云驾雾[官]",
@@ -151,30 +154,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
-    },
-    {
-      "key": "君1君",
-      "name": "👑鸭鸭在线4k",
-      "playerType": 2,
-      "type": 3,
-      "changeable": 0,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./lib/影腾.js",
-      "ext": {
-        "host": "http://cmsytv.lyyytv.cn/api.php/app/",
-        "*": [
-          "http://1.94.22.110:1122/myyt.php?url=",
-          "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="
-        ]
-      }
-    },
-    {
-      "key": "小猫",
-      "name": "小猫解析",
-      "type": 1,
-      "api": "http://zy.xiaomaomi.cc/api.php/provide/vod/"
     },
     {
       "key": "Wexalllive",

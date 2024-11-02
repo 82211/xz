@@ -98,33 +98,6 @@
       "ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
     },
     {
-      "key": "Wexkoukou",
-      "name": "🌺扣扣｜芒果",
-      "type": 3,
-      "api": "csp_Wexkoukou",
-      "jar": "./放牛娃/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexkoukou2",
-      "name": "🌺扣扣｜腾讯",
-      "type": 3,
-      "api": "csp_Wexkoukou2",
-      "jar": "./放牛娃/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexjiazitv",
-      "name": "🌺甲子｜4K🌺",
-      "type": 3,
-      "api": "csp_Wexjiazitv",
-      "jar": "./放牛娃/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "醉挽清风",
       "name": "🌀醉挽｜清风",
       "type": 3,

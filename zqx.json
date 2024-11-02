@@ -48,7 +48,8 @@
         "site": "http://mogg.小胡.top",
         "danmu": true
       }
-    },{
+    },
+    {
       "key": "企鹅崽崽",
       "name": "🐧企鹅｜崽崽",
       "type": 3,
@@ -58,6 +59,17 @@
         "ratio": 0.65
       },
       "ext": "http://xn--v6q485m.xn--esstbv41m2ra.icu/js/wj/企鹅崽崽.js"
+    },
+    {
+      "key": "月惜花晨",
+      "name": "🌙月惜｜花晨",
+      "type": 3,
+      "api": "http://xn--v6q485m.xn--esstbv41m2ra.icu/js/smdy.js",
+      "style": {
+        "type": "rect",
+        "ratio": 0.65
+      },
+      "ext": "https://git.acwing.com/smdy/tvbox/-/raw/main/js/月惜花晨.js"
     },
     {
       "key": "hipy_js_腾云驾雾[官]",

@@ -50,24 +50,6 @@
       }
     },
     {
-      "key": "Wexkoukou2",
-      "name": "🌺扣扣｜腾讯",
-      "type": 3,
-      "api": "csp_Wexkoukou2",
-      "jar": "./放牛娃/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexjiazitv",
-      "name": "🌺甲子｜4K🌺",
-      "type": 3,
-      "api": "csp_Wexjiazitv",
-      "jar": "./https://11405.kstore.space/饭太硬/放牛娃/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "企鹅崽崽",
       "name": "🐧企鹅｜崽崽",
       "type": 3,

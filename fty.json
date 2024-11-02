@@ -1,0 +1,503 @@
+{
+  "spider": "./fty.jar;md5;8851819289f80deae32319080028db3b",
+  "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
+  "sites": [
+    {
+      "key": "玩偶",
+      "name": "👽玩偶哥哥┃4K弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.net/",
+        "danMu": "弹"
+      }
+    },
+    {
+      "key": "玩.偶",
+      "name": "🌎玩偶｜智能",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "TVBox/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.net/",
+        "danMu": "弹"
+      }
+    },
+    {
+      "key": "夸克木偶弹幕",
+      "name": "🌞木偶｜资源",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "./摸鱼lib/danmu.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "http://mogg.小胡.top",
+        "danmu": true
+      }
+    },
+    {
+      "key": "梦幻心移",
+      "name": "♨梦幻心移｜内部畅通",
+      "playerType": 1,
+      "type": 3,
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "http://我不是.摸鱼儿.com/json/js/mhxy.js",
+      "ext": {
+        "host": "http://cmsytv.lyyytv.cn/api.php/app/",
+        "*": [
+          "http://103.38.82.59:9527/zhuimi666.php?url="
+        ]
+      }
+    },
+    {
+      "key": "完美弹幕",
+      "name": "🌞完美｜弹幕",
+      "type": 3,
+      "api": "./摸鱼lib/apiv205drpy.min.js",
+      "ext": "./摸鱼lib/完美弹幕.js"
+    },
+    {
+      "key": "hipy_js_腾云驾雾[官]",
+      "name": "🌞小米｜腾解",
+      "type": 3,
+      "api": "http://154.9.252.167:666/tvbox/js/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/ttt.js"
+    },
+    {
+      "key": "guoguo",
+      "name": "🌞小米｜芒解",
+      "type": 3,
+      "api": "http://154.9.252.167:666/tvbox/js/drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
+    },
+    {
+      "key": "Wexkoukou",
+      "name": "🌺扣扣｜芒果",
+      "type": 3,
+      "api": "csp_Wexkoukou",
+      "jar": "./放牛娃/wex.txt",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexkoukou2",
+      "name": "🌺扣扣｜腾讯",
+      "type": 3,
+      "api": "csp_Wexkoukou2",
+      "jar": "./放牛娃/wex.txt",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexjiazitv",
+      "name": "🌺甲子｜4K🌺",
+      "type": 3,
+      "api": "csp_Wexjiazitv",
+      "jar": "./放牛娃/wex.txt",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "醉挽清风",
+      "name": "🌀醉挽｜清风",
+      "type": 3,
+      "api": "./摸鱼lib/apiv205drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./摸鱼lib/qingfeng.js"
+    },
+    {
+      "key": "小满万全",
+      "name": "🌀小满｜万全",
+      "type": 3,
+      "api": "./摸鱼lib/apiv205drpy.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "./摸鱼lib/mgtv.js"
+    },
+    {
+      "key": "摸鱼瓜子",
+      "name": "🌀瓜子｜2K弹",
+      "type": 3,
+      "api": "./摸鱼lib/apiv205drpy.min.js",
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "./摸鱼lib/guazi.js"
+    },
+    {
+      "key": "drpy2_4KAV",
+      "name": "💯在线｜4K弹",
+      "type": 3,
+      "api": "http://110.42.99.99:3722/yydd/lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://110.42.99.99:3722/yydd/jfl/drpy2_4KAV.js"
+    },
+    {
+      "key": "新6V",
+      "name": "🛩️新6V┃P2",
+      "type": 3,
+      "api": "csp_WexXb6v",
+      "jar": "./lib/wex.txt",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "瓜子影视",
+      "name": "🍉瓜子┃纯净",
+      "type": 3,
+      "api": "csp_Gz360",
+      "jar": "./摸鱼lib/danmu.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "文采",
+      "name": "💮文采┃秒播",
+      "type": 3,
+      "api": "csp_Jpys",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "君1君",
+      "name": "👑鸭鸭在线4k",
+      "playerType": 2,
+      "type": 3,
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./lib/影腾.js",
+      "ext": {
+        "host": "http://cmsytv.lyyytv.cn/api.php/app/",
+        "*": [
+          "http://1.94.22.110:1122/myyt.php?url=",
+          "https://xcoo.vip/xiaojun/xiaojunjiexi.php?url="
+        ]
+      }
+    },
+    {
+      "key": "小猫",
+      "name": "小猫解析",
+      "type": 1,
+      "api": "http://zy.xiaomaomi.cc/api.php/provide/vod/"
+    },
+    {
+      "key": "Wexalllive",
+      "name": "💓‍聚合┃直播💓‍",
+      "type": 3,
+      "api": "csp_Wexalllive",
+      "jar": "./放牛娃/wex.txt",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "配置中心",
+      "name": "高级｜设置",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "./摸鱼lib/danmu.php",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "玩偶备用弹幕",
+      "name": "🌎玩偶┃备用",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar": "./摸鱼lib/danmu.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://wogg.xxooo.cf",
+        "danmu": true
+      }
+    },
+    {
+      "key": "夸克云星弹幕",
+      "name": "☁️云星┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "./摸鱼lib/danmu.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://4k.4u4.cn",
+        "danmu": true
+      }
+    },
+    {
+      "key": "夸克蜡笔弹幕",
+      "name": "🖍︎蜡笔┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "./摸鱼lib/danmu.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "site": "http://labipan.com/",
+        "danmu": true
+      }
+    },
+    {
+      "key": "夸克至臻弹幕",
+      "name": "🏆️至臻┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "./摸鱼lib/danmu.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://mihdr.top",
+        "danmu": true
+      }
+    },
+    {
+      "key": "Wexyingchao",
+      "name": "💓鸟巢┃4K💓",
+      "type": 3,
+      "api": "csp_Wexyingchao",
+      "jar": "./放牛娃/wex.txt",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "米搜",
+      "name": "🦋米盘┃搜搜",
+      "type": 3,
+      "api": "csp_MIPanSo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "抠搜",
+      "name": "🍄抠抠┃搜搜",
+      "type": 3,
+      "api": "csp_KkSs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "Sso",
+      "name": "🐌盘他┃三盘",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/盘他.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "夸搜",
+      "name": "🐟夸搜┃狸夸",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "pan": "quark",
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "YiSo",
+      "name": "😹易搜┃阿狸",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "PanSearch",
+      "name": "🙀盘Se┃阿狸",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "Bili",
+      "name": "🅱哔哔┃合集",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "./lib/bilibili.json"
+    }
+  ],
+  "parses": [
+    {
+      "name": "芒果4k",
+      "type": 1,
+      "url": "https://jxjson.icu/neibu.php?url="
+    },
+    {
+      "name": "8090g",
+      "type": 0,
+      "url": "https://www.8090g.cn/jiexi/?url="
+    },
+    {
+      "name": "臻享",
+      "type": 1,
+      "url": "http://43.248.100.147:6068/KEY/XGJ/root/key/70.php?url="
+    },
+    {
+      "name": "摸鱼4k",
+      "type": 1,
+      "url": "http://103.38.82.59:9527/zhuimi666.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "rx",
+          "ltnb",
+          "bilibili",
+          "1905",
+          "xigua"
+        ]
+      }
+    }
+  ],
+  "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
+  "lives": [
+    {
+      "name": "IPV6",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "playerType": 1
+    },
+    {
+      "name": "IPV6①",
+      "type": 0,
+      "url": "./lib/ipv6.m3u",
+      "playerType": 1
+    },
+    {
+      "name": "IPV6②",
+      "type": 0,
+      "url": "./lib/tv.m3u",
+      "playerType": 1,
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "SAO0",
+      "type": 0,
+      "url": "http://我不是.摸鱼儿.com/live.php",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "摸鱼IPV6",
+      "type": 0,
+      "url": "./摸鱼lib/ipv6.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "平台直播",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "playerType": 2
+    }
+  ]
+}

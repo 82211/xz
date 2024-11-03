@@ -409,42 +409,23 @@
       "url": "https://tv.iill.top/m3u/Gather",
       "playerType": 1
     },
+        {
+            "name": "IPV6①",
+            "type": 0,
+            "url": "./lib/IPV6①.txt",
+            "epg": ""
+        },
+        {
+            "name": "IPV6②",
+            "type": 0,
+            "url": "./lib/IPV6②.txt",
+            "epg": ""
+        },
     {
-      "name": "IPV6①",
+     "name": "平台直播",
       "type": 0,
-      "url": "./lib/ipv6.m3u",
-      "playerType": 1
-    },
-    {
-      "name": "IPV6②",
-      "type": 0,
-      "url": "./lib/tv.m3u",
-      "playerType": 1,
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    {
-      "name": "SAO0",
-      "type": 0,
-      "url": "http://我不是.摸鱼儿.com/live.php",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    {
-      "name": "摸鱼IPV6",
-      "type": 0,
-      "url": "./摸鱼lib/ipv6.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.com/tv/{name}.png"
-    },
-    {
-      "name": "平台直播",
-      "type": 0,
-      "url": "https://tv.iill.top/m3u/Live",
-      "playerType": 2
-    }
-  ]
+       "url": "./lib/平台直播.txt",
+       "epg": ""
+        }
+    ]
 }

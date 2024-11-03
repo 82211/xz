@@ -168,15 +168,6 @@
       "changeable": 1
     },
     {
-      "key": "Wexalllive",
-      "name": "💓‍聚合┃直播💓‍",
-      "type": 3,
-      "api": "csp_Wexalllive",
-      "jar": "./放牛娃/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "配置中心",
       "name": "高级｜设置",
       "type": 3,
@@ -256,15 +247,6 @@
         "site": "https://mihdr.top",
         "danmu": true
       }
-    },
-    {
-      "key": "Wexyingchao",
-      "name": "💓鸟巢┃4K💓",
-      "type": 3,
-      "api": "csp_Wexyingchao",
-      "jar": "./放牛娃/wex.txt",
-      "searchable": 1,
-      "changeable": 1
     },
     {
       "key": "米搜",

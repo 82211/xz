@@ -212,7 +212,7 @@
     },
     {
       "key": "配置中心",
-      "name": "高级｜设置",
+      "name": "🌎高级｜设置",
       "type": 3,
       "api": "csp_Config",
       "jar": "./摸鱼lib/danmu.php",

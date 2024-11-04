@@ -50,6 +50,15 @@
       }
     },
     {
+      "key": "Wexkoukou",
+      "name": "🌺扣扣｜全能",
+      "type": 3,
+      "api": "csp_Wexkoukou",
+      "jar": "https://11405.kstore.space/饭太硬/放牛娃/wex.txt",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
       "key": "企鹅崽崽",
       "name": "🐧企鹅｜崽崽",
       "type": 3,

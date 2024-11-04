@@ -50,15 +50,6 @@
       }
     },
     {
-      "key": "Wexkoukou",
-      "name": "🌺扣扣｜全能",
-      "type": 3,
-      "api": "csp_Wexkoukou",
-      "jar": "https://11405.kstore.space/饭太硬/放牛娃/wex.txt",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "企鹅崽崽",
       "name": "🐧企鹅｜崽崽",
       "type": 3,
@@ -208,6 +199,16 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
+    },
+    {
+      "key": "alllive",
+      "name": "📽️直播┃平台",
+      "type": 3,
+      "api": "csp_Alllive",
+      "playerType": 2,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "配置中心",

@@ -181,6 +181,53 @@
       "changeable": 0
     },
     {
+      "key": "真心影视",
+      "name": "❤️真心┃纯净",
+      "type": 3,
+      "api": "csp_WebGZ",
+      "jar": "./摸鱼lib/danmu.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "文才弹幕",
+      "name": "💮文采┃弹幕",
+      "type": 3,
+      "api": "csp_Jpys",
+      "jar": "./摸鱼lib/danmu.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "凡人影视",
+      "name": "🤡凡人┃弹幕",
+      "type": 3,
+      "api": "csp_AppFr",
+      "jar": "./摸鱼lib/danmu.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "荐片弹幕",
+      "name": "👍️荐片┃弹幕",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "jar": "./摸鱼lib/danmu.php",
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
       "key": "瓜子影视",
       "name": "🍉瓜子┃纯净",
       "type": 3,

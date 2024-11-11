@@ -201,6 +201,24 @@
       "changeable": 1
     },
     {
+      "key": "笔触琉璃",
+      "name": "❤️笔触琉璃┃4K弹幕",
+      "type": 3,
+      "api": "csp_Bilimd",
+      "jar": "./摸鱼lib/danmu.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+      "type": "rect",
+              "ratio": 1.433
+               },
+      "ext": {
+                "cookie": "file://tvbox/bilibili.txt"
+            },
+            "timeout": 10
+    },
+    {
       "key": "alllive",
       "name": "📽️直播┃平台",
       "type": 3,

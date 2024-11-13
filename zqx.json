@@ -512,18 +512,6 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
-        {
-            "name": "IPV6①",
-            "type": 0,
-            "url": "./lib/IPV6①.txt",
-            "epg": ""
-        },
-        {
-            "name": "IPV6②",
-            "type": 0,
-            "url": "./lib/IPV6②.txt",
-            "epg": ""
-        },
     {
      "name": "平台直播",
       "type": 0,

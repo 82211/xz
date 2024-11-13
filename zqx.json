@@ -129,58 +129,6 @@
       "ext": "./摸鱼lib/guazi.js"
     },
     {
-      "key": "drpy2_4KAV",
-      "name": "💯在线｜4K弹",
-      "type": 3,
-      "api": "http://110.42.99.99:3722/yydd/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://110.42.99.99:3722/yydd/jfl/drpy2_4KAV.js"
-    },
-    {
-      "key": "hipy_js_4k剧院",
-      "name": "4k剧院｜(磁力)",
-      "type": 3,
-      "api": "./磁力/lan.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./磁力/4k剧院.js"
-    },
-    {
-      "key": "hipy_js_4khdr",
-      "name": "4khdr｜(磁力)",
-      "type": 3,
-      "api": "./磁力/lan.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./磁力/4khdr.js"
-    },
-    {
-      "key": "布谷TV",
-      "name": "布谷TV｜磁力",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./磁力/spider.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./磁力/布谷TV.json"
-    },
-    {
-      "key": "新6V",
-      "name": "🛩️新6V┃P2",
-      "type": 3,
-      "api": "csp_WexXb6v",
-      "jar": "./放牛娃/wex.txt",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
       "key": "真心影视",
       "name": "❤️真心┃纯净",
       "type": 3,
@@ -264,6 +212,48 @@
                 "cookie": "file://tvbox/bilibili.txt"
             },
             "timeout": 10
+    },
+    {
+      "key": "hipy_js_4k剧院",
+      "name": "4k剧院｜(磁力)",
+      "type": 3,
+      "api": "./磁力/lan.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./磁力/4k剧院.js"
+    },
+    {
+      "key": "hipy_js_4khdr",
+      "name": "4khdr｜(磁力)",
+      "type": 3,
+      "api": "./磁力/lan.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./磁力/4khdr.js"
+    },
+    {
+      "key": "布谷TV",
+      "name": "布谷TV｜磁力",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./磁力/spider.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./磁力/布谷TV.json"
+    },
+    {
+      "key": "新6V",
+      "name": "🛩️新6V┃P2",
+      "type": 3,
+      "api": "csp_WexXb6v",
+      "jar": "./放牛娃/wex.txt",
+      "searchable": 1,
+      "changeable": 0
     },
     {
       "key": "alllive",

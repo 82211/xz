@@ -72,18 +72,6 @@
       "ext": "./摸鱼lib/qingfeng.js"
     },
     {
-      "key": "hipy_js_腾云驾雾[官]",
-      "name": "🌞小米｜腾解",
-      "type": 3,
-      "api": "http://43.242.202.173:36923/tvbox/js/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/tm.js"
-    },
-    {
       "key": "月惜花晨",
       "name": "🌙月惜｜花晨",
       "type": 3,
@@ -93,18 +81,6 @@
         "ratio": 0.65
       },
       "ext": "https://git.acwing.com/smdy/tvbox/-/raw/main/js/月惜花晨.js"
-    },
-    {
-      "key": "guoguo",
-      "name": "🌞小米｜芒解",
-      "type": 3,
-      "api": "http://43.242.202.173:36923/tvbox/js/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
     },
     {
       "key": "小满万全",
@@ -454,6 +430,11 @@
     }
   ],
   "parses": [
+    {
+      "name": "小米4k",
+      "type": 1,
+      "url": "https://jx.xiaofengtv.com/jx.php?url="
+    },
     {
       "name": "芒果4k",
       "type": 1,

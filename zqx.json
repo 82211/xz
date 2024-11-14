@@ -441,14 +441,14 @@
       "url": "https://jxjson.icu/neibu.php?url="
     },
     {
-      "name": "高清解析",
-      "type": 1,
-      "url": "https://zy.qiaoji8.com/neibu.php?url="
-    },
-    {
       "name": "摸鱼4k",
       "type": 1,
-      "url": "http://110.40.61.139:4655/zhuimi666.php?url=",
+      "url": "http://110.40.61.139:4655/zhuimi666.php?url="
+    },
+    {
+      "name": "高清备用",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/neibu.php?url=",
       "ext": {
         "flag": [
           "qq",

@@ -21,6 +21,7 @@
       "name": "TG豆瓣",
       "type": 3,
       "api": "csp_TGDouban",
+      "jar": "./pg调用/pg.jar",    
       "timeout": 120,
       "ext": {
         "token": "./pg调用/tokenm.json",

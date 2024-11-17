@@ -125,6 +125,17 @@
       }
     },
     {
+			"key": "hipy_js_影探4K",
+			"name": "影探｜4K",
+			"type": 3,
+			"api": "./影/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./影/影探.js"
+		},
+    {
       "key": "企鹅崽崽",
       "name": "🐧企鹅｜崽崽",
       "type": 3,

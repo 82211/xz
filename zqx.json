@@ -3,6 +3,81 @@
   "wallpaper": "http://我不是.摸鱼儿.com/wallpaper/moyu.php",
   "sites": [
     {
+      "key": "网盘配置",
+      "name": "TG搜索115|配置中心",
+      "type": 3,
+      "api": "csp_Config",
+      "jar": "./pg调用/pg.jar",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./pg调用/tokentemplate.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+    {
+      "key": "TGDouban",
+      "name": "TG豆瓣",
+      "type": 3,
+      "api": "csp_TGDouban",
+      "timeout": 120,
+      "ext": {
+        "token": "./pg调用/tokenm.json",
+        "json": "./pg调用/tgsearch.json",
+        "keywords": "名称,片名,推荐",
+        "tgsearch_url": "http://127.0.0.1:10199",
+        "tgsearch_media_url": "http://127.0.0.1:10199",
+        "channellist": "alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000,tgsearchers",
+        "proxy": "noproxy",
+        "douban": "./pg调用/douban.json",
+        "danmu": false
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 0.7
+      }
+    },
+    {
+      "key": "TGYunPan",
+      "name": "TG群组搜索",
+      "type": 3,
+      "api": "csp_TGYunPan",
+      "jar": "./pg调用/pg.jar",
+      "timeout": 120,
+      "ext": {
+        "token": "./pg调用/tokenm.json",
+        "json": "./pg调用/tgsearch.json",
+        "keywords": "名称,片名,推荐",
+        "tgsearch_url": "http://127.0.0.1:10199",
+        "tgsearch_media_url": "http://127.0.0.1:10199",
+        "channellist": "XiangxiuNB|1000,Aliyundrive_Share_Channel|1000,Quark_Share_Channel|1000,yunpanshare|1000,Aliyun_4K_Movies|1000,hao115|1000,alyp_4K_Movies|1000",
+        "proxy": "noproxy",
+        "danmu": true
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.77
+      }
+    },
+    {
+      "key": "115Share",
+      "name": "115云盘分享",
+      "type": 3,
+      "api": "csp_P115Share",
+      "jar": "./pg调用/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 0,
+      "timeout": 120,
+      "ext": "./pg调用/tokenm.json$$$./pg调用/115share.txt$$$db$$$1",
+      "style": {
+        "type": "list",
+        "ratio": 1.1
+      }
+    },
+    {
       "key": "玩偶",
       "name": "👽玩偶哥哥┃4K弹幕",
       "type": 3,

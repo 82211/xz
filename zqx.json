@@ -66,7 +66,7 @@
       "name": "TG频道搜索",
       "type": 3,
       "api": "csp_TGYunPanLocal",
-      "jar": "./pg外挂/pg.jar",
+      "jar": "./pg调用/pg.jar",
       "timeout": 120,
       "ext": {
         "token": "./pg外挂/lib/tokenm.json",

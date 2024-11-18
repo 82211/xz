@@ -29,7 +29,7 @@
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000,tgsearchers,@hao115,vip115hot",
+        "channellist": "alypzyhzq|1000,Mbox115|1000,shares_115|1000,Quark_Share_Channel|1000,Aliyundrive_Share_Channel|1000,wanwansubchat|1000,tgsearchers,",
         "proxy": "noproxy",
         "douban": "./pg调用/douban.json",
         "danmu": false
@@ -74,7 +74,7 @@
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "@hao115,vip115hot",
+        "channellist": "https://t.me/vip115hot",
         "proxy": "noproxy",
         "danmu": true
       },

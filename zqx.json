@@ -74,7 +74,7 @@
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "https://t.me/hao115,https://t.me/guaguale115,@hao115,vip115hot",
+        "channellist": "https://t.me/hao115,@hao115,vip115hot",
         "proxy": "noproxy",
         "danmu": true
       },

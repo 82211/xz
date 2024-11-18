@@ -332,15 +332,6 @@
       "ext": "./磁力/布谷TV.json"
     },
     {
-      "key": "新6V",
-      "name": "🛩️新6V┃P2",
-      "type": 3,
-      "api": "csp_WexXb6v",
-      "jar": "./放牛娃/wex.txt",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
       "key": "alllive",
       "name": "📽️直播┃平台",
       "type": 3,

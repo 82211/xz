@@ -74,7 +74,7 @@
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",
-        "channellist": "hao115,guaguale115,Channel_Shares_115,vip115hot,guaguale115,dianyingshare,XiangxiuNB,kuakeyun",
+        "channellist": "hao115,guaguale115,Channel_Shares_115,vip115hot,guaguale115,kuakeyun",
         "proxy": "noproxy",
         "danmu": true
       },

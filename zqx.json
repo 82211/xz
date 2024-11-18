@@ -69,8 +69,8 @@
       "jar": "./pg调用/pg.jar",
       "timeout": 120,
       "ext": {
-        "token": "./pg外挂/lib/tokenm.json",
-        "json": "./pg外挂/lib/tgsearch.json",
+        "token": "./pg调用/tokenm.json",
+        "json": "./pg调用/tgsearch.json",
         "keywords": "名称,片名,推荐",
         "tgsearch_url": "http://127.0.0.1:10199",
         "tgsearch_media_url": "http://127.0.0.1:10199",

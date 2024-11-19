@@ -1,1 +1,78 @@
-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
+//初版v2模板，自动分类筛选
+//填上这里host即可，其他不用改动
+
+globalThis.gethost = 'http://cmsyttv.lyyytv.cn/'
+
+let data=JSON.parse(fetch(gethost+'/api.php/app/nav?token',{headers:{'User-Agent':'Dart/2.14 (dart:io)'}}));let dy={"class":"类型","area":"地区","lang":"语言","year":"年份","letter":"字母","by":"排序"};let fyurl='';let result={};let getn=[];let getu=[];let jsonData=data.list;for(let k=0;k<jsonData.length;k++){let hasNonEmptyField=false;getn.push(jsonData[k].type_name);getu.push(jsonData[k].type_id);for(let key in dy){if(key in jsonData[k].type_extend&&jsonData[k].type_extend[key].trim()!==""){hasNonEmptyField=true;break}};if(hasNonEmptyField){result[String(jsonData[k].type_id)]=[];for(let dkey in jsonData[k].type_extend){if(dkey in dy&&jsonData[k].type_extend[dkey].trim()!==""){if(k==0){fyurl+=`&${dkey}={{fl.${dkey}}}`}let values=jsonData[k].type_extend[dkey].split(',');let valueArray=values.map(value=>({"n":value.trim(),"v":value.trim()}));result[String(jsonData[k].type_id)].push({"key":dkey,"name":dy[dkey],"value":valueArray})}}}};globalThis.getname=getn.join("&");globalThis.geturl=getu.join("&");globalThis.getfilter=result;globalThis.getfyurl=fyurl;
+var rule = {
+    author: '嗷呜',
+    title: '[V2]模板',
+    host: gethost,
+    url: '/api.php/app/video?tid=fyclassfyfilter&limit=20&pg=fypage',
+    filter_url: getfyurl,
+    homeUrl: '/api.php/app/index_video',
+    detailUrl: '/api.php/app/video_detail?id=fyid',   
+    searchUrl: '/api.php/app/search?text=**&pg=fypage',
+    searchable: 2,
+    quickSearch: 1,
+    filterable: 1,
+    headers: {
+        'User-Agent': 'okhttp/4.9.1'
+    },   
+    class_name: getname,
+    class_url: geturl,
+    filter: getfilter,
+    limit: 20,
+    play_parse: true,
+     lazy: $js.toString(() => {
+  let d = [];
+
+  try {
+    // 发起请求并获取响应，添加请求头
+    let headers = {
+      'User-Agent': 'okhttp/4.12.0'
+    };
+    let responseText = request("http://qn6z7b.yun.42jx.com/jx/jx.php?url=" + input, { headers: headers });
+ 
+    console.log("响应文本:", responseText); // 查看原始响应内容
+//备用http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=
+    // 解析 JSON 数据
+    let response = JSON.parse(responseText);
+
+    // 查找以 'url' 开头的字段
+    let urlField = Object.keys(response).find(key => key.startsWith('url'));
+
+    // 提取找到的字段值
+    let urlValue = urlField ? response[urlField] : null;
+
+    console.log("提取的随机字段值:", urlValue); // 查看提取的值
+
+    if (urlValue) {
+      // 处理 urlValue，或将其用于 input
+      input = {
+        url: urlValue,
+        parse: 0,
+        header: rule.headers
+      };
+    } else {
+      // 处理没有找到字段的情况
+      console.error("没有找到以 'url' 开头的字段");
+    }
+  } catch (error) {
+    console.error("处理请求或数据时发生错误：", error);
+  }
+
+  setResult(d);
+}),
+    推荐: $js.toString(() => {
+        let data=JSON.parse(fetch(input)).list;let com=[];data.forEach(item=>{if(Array.isArray(item.vlist)&&item.vlist.length!==0){com=com.concat(item.vlist)}})
+        VODS = com
+    }),
+    一级: $js.toString(() => {
+        VODS = JSON.parse(fetch(input)).list
+    }),
+    二级: $js.toString(() => {
+        VOD = JSON.parse(fetch(input)).data
+    }),
+    搜索: '*',
+}

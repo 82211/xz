@@ -148,16 +148,16 @@
       }
     },
     {
-			"key": "hipy_js_影探4K",
-			"name": "影探｜4K",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 0,
-			"ext": "./影/影探.js"
-		},
+	"key": "hipy_js_影探4K",
+	"name": "影探｜4K",
+	"type": 3,
+	"api": "./lib/drpy2.min.js",
+	"searchable": 1,
+	"quickSearch": 1,
+	"filterable": 1,
+	"order_num": 0,
+	"ext": "./影/影探.js"
+	},
     {
       "key": "企鹅崽崽",
       "name": "🐧企鹅｜崽崽",
@@ -168,6 +168,18 @@
         "ratio": 0.65
       },
       "ext": "http://xn--v6q485m.xn--esstbv41m2ra.icu/js/wj/企鹅崽崽.js"
+    },
+    {
+      "key": "腾讯",
+      "name": "柒豪|腾讯",
+      "type": 3,
+      "api": "https://gitee.com/qihaoyyds/js/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/qihaoyyds/js/raw/master/腾讯影视.js"
     },
     {
       "key": "醉挽清风",
@@ -190,6 +202,18 @@
         "ratio": 0.65
       },
       "ext": "https://git.acwing.com/smdy/tvbox/-/raw/main/js/月惜花晨.js"
+    },
+    {
+      "key": "芒果",
+      "name": "柒豪|芒果",
+      "type": 3,
+      "api": "https://gitee.com/qihaoyyds/js/raw/master/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://gitee.com/qihaoyyds/js/raw/master/芒果影视.js"
     },
     {
       "key": "小满万全",

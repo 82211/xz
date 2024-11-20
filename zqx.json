@@ -600,6 +600,11 @@
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
+      "name": "备用IPV6",
+      "type": 0,
+      "url": "http://www.iptv6.icu:5212/f/mPLia/mytv.txt"
+    },
+    {
      "name": "平台直播",
       "type": 0,
        "url": "./lib/平台直播.txt",

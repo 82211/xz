@@ -41,7 +41,7 @@
     },
     {
       "key": "TGYunPan",
-      "name": "TG群组搜索",
+      "name": "TG群组",
       "type": 3,
       "api": "csp_TGYunPan",
       "jar": "./pg调用/pg.jar",
@@ -63,7 +63,7 @@
     },
     {
       "key": "115Share",
-      "name": "115云盘分享",
+      "name": "115云盘",
       "type": 3,
       "api": "csp_P115Share",
       "jar": "./pg调用/pg.jar",
@@ -137,17 +137,6 @@
 	"ext": "./影/影探.js"
 	},
     {
-      "key": "企鹅崽崽",
-      "name": "🐧企鹅｜崽崽",
-      "type": 3,
-      "api": "http://ovo.smdyo.top/libs/drpy2.min.js",
-      "style": {
-        "type": "rect",
-        "ratio": 0.65
-      },
-      "ext": "http://ovo.smdyo.top/js/qezz.js"
-    },
-    {
       "key": "醉挽清风",
       "name": "🌀醉挽｜清风",
       "type": 3,
@@ -157,17 +146,6 @@
       "filterable": 1,
       "order_num": 0,
       "ext": "./摸鱼lib/qingfeng.js"
-    },
-    {
-      "key": "月惜花晨",
-      "name": "🌙月惜｜花晨",
-      "type": 3,
-      "api": "http://ovo.smdyo.top/libs/drpy2.min.js",
-      "style": {
-        "type": "rect",
-        "ratio": 0.65
-      },
-      "ext": "http://ovo.smdyo.top/js/yxhc.js"
     },
     {
       "key": "小满万全",
@@ -207,30 +185,6 @@
       "type": 3,
       "api": "csp_Jpys",
       "jar": "./摸鱼lib/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "凡人影视",
-      "name": "🤡凡人┃弹幕",
-      "type": 3,
-      "api": "csp_AppFr",
-      "jar": "./摸鱼lib/danmu.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "荐片弹幕",
-      "name": "👍️荐片┃弹幕",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "jar": "./摸鱼lib/danmu.php",
-      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,

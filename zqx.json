@@ -94,21 +94,6 @@
       }
     },
     {
-      "key": "玩.偶",
-      "name": "🌎玩偶｜智能",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "TVBox/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.net/",
-        "danMu": "弹"
-      }
-    },
-    {
       "key": "夸克木偶弹幕",
       "name": "🌞木偶｜资源",
       "type": 3,

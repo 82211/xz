@@ -217,7 +217,7 @@
     },
     {
       "key": "hipy_js_4k剧院",
-      "name": "4k剧院｜(磁力)",
+      "name": "4k剧院|磁力",
       "type": 3,
       "api": "./磁力/lan.js",
       "searchable": 1,
@@ -228,7 +228,7 @@
     },
     {
       "key": "hipy_js_4khdr",
-      "name": "4khdr｜(磁力)",
+      "name": "4khdr|磁力",
       "type": 3,
       "api": "./磁力/lan.js",
       "searchable": 1,
@@ -239,7 +239,7 @@
     },
     {
       "key": "布谷TV",
-      "name": "布谷TV｜磁力",
+      "name": "布谷TV|磁力",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./磁力/spider.jar",

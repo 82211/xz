@@ -241,7 +241,7 @@
     },
     {
       "key": "csp_zhufan",
-      "name": "追饭|2k",
+      "name": "追饭|1k",
       "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732868600931/tounima.jar",
       "searchable": 1,
       "quickSearch": 1,
@@ -355,7 +355,7 @@
     },
     {
       "key": "韩小圈",
-      "name": "韩小圈|1k",
+      "name": "韩圈|1k",
       "type": 3,
       "api": "csp_HanXiaoQuan",
       "searchable": 1,
@@ -422,7 +422,7 @@
     },
     {
       "key": "小纸条弹幕",
-      "name": "小纸条｜弹幕",
+      "name": "纸条|搜索",
       "type": 3,
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,

@@ -626,10 +626,28 @@
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
   "lives": [
     {
-      "name": "直播",
+      "name": "SAO0",
       "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=https://tv.iill.top/m3u/Gather",
-      "playerType": 2
+      "url": "http://我不是.摸鱼儿.com/live.php",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
+    },
+    {
+      "name": "电视直播",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather"
+    },
+    {
+      "name": "网络直播",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live"
+    },
+    {
+      "name": "IPV6",
+      "type": 0,
+      "url": "http://www.iptv6.icu:5212/f/mPLia/mytv.txt"
     },
     {
       "name": "范明明",
@@ -638,40 +656,9 @@
       "playerType": 2
     },
     {
-      "name": "肥羊国内直播",
+      "name": "IPV6备用",
       "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tv.m3u",
-      "ua": "okhttp/3.15"
-    },
-    {
-      "name": "肥羊TPTV",
-      "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/tptv.m3u",
-      "ua": "okhttp/3.15"
-    },
-    {
-      "name": "肥羊虎牙一起看",
-      "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/huyayqk.m3u",
-      "ua": "okhttp/3.15"
-    },
-    {
-      "name": "肥羊B站直播",
-      "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/bililive.m3u",
-      "ua": "okhttp/3.15"
-    },
-    {
-      "name": "肥羊斗鱼一起看",
-      "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/douyuyqk.m3u",
-      "ua": "okhttp/3.15"
-    },
-    {
-      "name": "肥羊YY轮播",
-      "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=http://127.0.0.1:35345/yylunbo.m3u",
-      "ua": "okhttp/3.15"
+      "url": "http://www.iptv6.icu:5212/f/mPLia/mytv.txt"
     }
   ],
   "doh": [

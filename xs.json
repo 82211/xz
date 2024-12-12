@@ -65,6 +65,22 @@
       }
     },
     {
+      "key": "玩偶弹幕",
+      "name": "玩偶|4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "wogg": true,
+        "danmu": true
+      }
+    },
+    {
       "key": "夸克六趣弹幕",
       "name": "六趣|4K",
       "type": 3,
@@ -232,6 +248,23 @@
       "ext": "https://gitee.com/smallmi1007/mimi/raw/master/guoguo.js"
     },
     {
+      "key": "哔哩弹幕",
+      "name": "哔哩|弹幕",
+      "type": 3,
+      "api": "csp_Bilimd",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt"
+      },
+      "timeout": 10
+    },
+    {
       "key": "drpyS_人人视频",
       "name": "人人|视频",
       "type": 4,
@@ -389,7 +422,7 @@
     },
     {
       "key": "hipy_js_4k剧院",
-      "name": "剧院|磁力",
+      "name": "磁力|1k",
       "type": 3,
       "api": "./sj/lan.js",
       "searchable": 1,
@@ -422,7 +455,7 @@
     },
     {
       "key": "小纸条弹幕",
-      "name": "纸条|搜索",
+      "name": "纸条|弹幕",
       "type": 3,
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,

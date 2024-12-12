@@ -288,13 +288,44 @@
       }
     },
     {
-      "key": "瓜子影视",
-      "name": "瓜子|1k",
+      "key": "文采",
+      "name": "文采|1k",
       "type": 3,
-      "api": "csp_Gz360",
+      "api": "csp_Jpys",
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "changeable": 1
+    },
+    {
+      "key": "厂长",
+      "name": "厂长|1k",
+      "type": 3,
+      "api": "csp_NewCz",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.czzyvideo.com/"
+    },
+    {
+      "key": "木星",
+      "name": "木星|1k",
+      "type": 3,
+      "api": "csp_AppSx",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM"
+    },
+    {
+      "key": "糯米",
+      "name": "糯米|1k",
+      "type": 3,
+      "api": "csp_Nmyswv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "凡人影视",
@@ -334,16 +365,6 @@
       "filterable": 1
     },
     {
-      "key": "兄弟影视",
-      "name": "兄弟|1k",
-      "type": 3,
-      "api": "csp_AppGetApp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "KhYl01Kekjo9vLs09V+rOtv/6QaOFwdQp2ne4h22GLkT99eCXh9SJ/lGZNM8zgk1OnFWx0zBQ9Y/9mAjQB67LaEp7Yj7w9SYBEjFbdPjKy3EHp7uBIHXVI7/dZ4r/dJapz6ihlWwqY2KlGuarL/+9suxO4ZJFOg1OxN+dTrTbi2Muff1CmBkNfrY+sENTEbHAsgpQRtycD7pjvPePZ1AgNT8ZuBCcf4lIM858OSMK4u76tpjIfqzVA=="
-    },
-    {
       "key": "大米星球",
       "name": "大米|1k",
       "type": 3,
@@ -351,46 +372,10 @@
       "ext": "./xs/APPV2.js?type=url&params=https://damifan.wiki"
     },
     {
-      "key": "真心影视",
-      "name": "真心|1k",
-      "type": 3,
-      "api": "csp_WebGZ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "金牌影视",
       "name": "金牌|1k",
       "type": 3,
       "api": "csp_WebJP",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "厂长资源",
-      "name": "厂长|1k",
-      "type": 3,
-      "api": "csp_Czzy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "低端影视",
-      "name": "低端|1k",
-      "type": 3,
-      "api": "csp_Ddys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "韩小圈",
-      "name": "韩圈|1k",
-      "type": 3,
-      "api": "csp_HanXiaoQuan",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1

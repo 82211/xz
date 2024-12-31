@@ -4,7 +4,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "小曾|推荐",
+      "name": "我的|影视",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -27,26 +27,26 @@
       "name": "天逸|配置",
       "type": 3,
       "api": "csp_Wexconfig",
-      "jar": "./xs/wex.jar",
+      "jar": "./lib/wex.jar",
       "searchable": 0,
       "changeable": 0,
       "indexs": 0
     },
-    {
-      "key": "玩偶",
-      "name": "👽玩偶|哥哥",
-      "type": 3,
-      "api": "csp_WoGG",
-      "jar": "./lib/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.net/",
-        "danMu": "弹"
-      }
+     {
+       "key": "玩偶弹幕",
+       "name": "玩偶|哥哥",
+       "type": 3,
+       "api": "csp_Wogg",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1,
+       "ext": {
+           "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+           "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+           "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+           "wogg": true,
+           "danmu": true
+     }
     },
     {
       "key": "夸克木偶弹幕",
@@ -64,21 +64,21 @@
         "danmu": true
       }
     },
-    {
-      "key": "玩偶弹幕",
-      "name": "玩偶|4K",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "wogg": true,
-        "danmu": true
-      }
+     {
+       "key": "玩偶备用弹幕",
+       "name": "玩偶|4K",
+       "type": 3,
+       "api": "csp_Wogg",
+       "searchable": 1,
+       "quickSearch": 1,
+       "filterable": 1,
+       "ext": {
+            "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+            "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+            "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+            "site": "https://wogg.xxooo.cf",
+            "danmu": true
+     }
     },
     {
       "key": "夸克六趣弹幕",
@@ -196,11 +196,45 @@
       }
     },
     {
+      "key": "奥秘网盘",
+      "name": "奥秘|4K",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://vip.omii.top/",
+        "danmu": true
+      }
+    },
+    {
+      "key": "失眠的夜",
+      "name": "白嫖|4K",
+      "type": 3,
+      "api": "csp_Wobg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://smdyo.top",
+        "danmu": true
+      }
+    },
+    {
       "key": "雷鲸",
       "name": "雷鲸|4k",
       "type": 3,
       "api": "csp_Wexleijing",
-      "jar": "./xs/wex.jar",
+      "jar": "./lib/wex.jar",
       "searchable": 1,
       "changeable": 1
     },
@@ -209,34 +243,34 @@
       "name": "移动|4K‍",
       "type": 3,
       "api": "csp_WexYDpanta",
-      "jar": "./xs/wex.jar",
+      "jar": "./lib/wex.jar",
       "searchable": 1,
       "changeable": 1
     },
     {
       "key": "腾讯弹幕",
-      "name": "腾讯|弹幕",
+      "name": "腾讯|4k",
       "type": 3,
-      "api": "./xs/drpy2.min.js",
-      "ext": "./xs/腾讯弹幕.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/腾讯弹幕.js"
     },
     {
       "key": "芒果弹幕",
-      "name": "芒果|弹幕",
+      "name": "芒果|4k",
       "type": 3,
-      "api": "./xs/drpy2.min.js",
-      "ext": "./xs/芒果弹幕.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/芒果弹幕.js"
     },
     {
       "key": "爱奇艺弹幕",
-      "name": "爱奇|弹幕",
+      "name": "爱奇|4k",
       "type": 3,
-      "api": "./xs/drpy2.min.js",
-      "ext": "./xs/爱奇艺弹幕.js"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/爱奇艺弹幕.js"
     },
     {
       "key": "哔哩弹幕",
-      "name": "哔哩|弹幕",
+      "name": "哔哩|4k",
       "type": 3,
       "api": "csp_Bilimd",
       "searchable": 1,
@@ -247,13 +281,13 @@
         "ratio": 1.597
       },
       "ext": {
-        "cookie": "https://gh.llkk.cc/https://github.com/82211/xz/blob/main/lib/blbl.txt"
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt"
       },
       "timeout": 10
     },
     {
       "key": "bili",
-      "name": "B站|哔哩",
+      "name": "B站|4k",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
@@ -261,30 +295,7 @@
       "changeable": 0,
       "ext": {
         "type": "演唱会#电影#电视剧#帕梅拉#广场舞#纪录片#综艺#鬼畜#音乐#舞蹈#影视#知识#美食#风光#田园#户外#8K#徐云",
-        "cookie": "https://gh.llkk.cc/https://github.com/82211/xz/blob/main/lib/blbl.txt"
-      }
-    },
-    {
-      "key": "drpyS_人人视频",
-      "name": "人人|4k",
-      "type": 4,
-      "api": "https://drpys.6516789.xyz/api/人人视频",
-      "searchable": 1,
-      "ext": ""
-    },
-    {
-      "key": "csp_zhufan",
-      "name": "追饭|4k",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1732868600931/tounima.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "type": 3,
-      "api": "csp_MiTo",
-      "ext": {
-        "url": "http://xiafan.zhuiju666.com",
-        "dataKey": "aassddwwxxllsx1x",
-        "playKey": "bbssqdbbssll25sx",
-        "version": "1.1.0"
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt"
       }
     },
     {
@@ -298,18 +309,6 @@
       "ext": {
         "danmu": true
       }
-    },
-    {
-      "key": "厂长",
-      "name": "厂长|1k",
-      "type": 3,
-      "api": "csp_NewCz",
-      "jar": "./lib/fty.jar",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.czzyvideo.com/"
     },
     {
       "key": "凡人影视",
@@ -352,8 +351,8 @@
       "key": "大米星球",
       "name": "大米|1k",
       "type": 3,
-      "api": "./xs/drpy2.min.js",
-      "ext": "./xs/APPV2.js?type=url&params=https://damifan.wiki"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/APPV2.js?type=url&params=https://damifan.wiki"
     },
     {
       "key": "金牌影视",
@@ -386,19 +385,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./sj/影港.json",
-      "jar": "./sj/nx4.jar"
-    },
-    {
-      "key": "hipy_js_4k剧院",
-      "name": "磁力|随缘",
-      "type": 3,
-      "api": "./sj/lan.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "./sj/4k剧院.js"
+      "ext": "./js/影港.json",
+      "jar": "./js/nx4.jar"
     },
     {
       "key": "115",
@@ -411,20 +399,121 @@
       "style": {
         "type": "list"
       },
-      "jar": "./xs/wex.jar"
+      "jar": "./lib/wex.jar"
     },
     {
       "key": "Wextyso",
       "name": "天逸|4k",
       "type": 3,
       "api": "csp_Wextyso",
-      "jar": "./xs/wex.jar",
+      "jar": "./lib/wex.jar",
       "searchable": 1,
       "changeable": 0
+    },,
+    {
+      "key": "我的阿里",
+      "name": "我的|阿里",
+      "type": 3,
+      "api": "csp_MyAli",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt"
+      },
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "我的夸克",
+      "name": "我的|夸克",
+      "type": 3,
+      "api": "csp_MyQuark",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt"
+      },
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "我的UC",
+      "name": "我的|UC",
+      "type": 3,
+      "api": "csp_MyUc",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt"
+      },
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "米搜弹幕",
+      "name": "米搜|4k",
+      "type": 3,
+      "api": "csp_Qkpanso",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "site": "https://www.misou.fun",
+        "danmu": true
+      }
+    },
+    {
+      "key": "夸搜弹幕",
+      "name": "夸搜|4k",
+      "type": 3,
+      "api": "csp_Qkso",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "danmu": true
+      }
+    },
+    {
+      "key": "夸克盘搜弹幕",
+      "name": "夸克|4k",
+      "type": 3,
+      "api": "csp_Qkpanso",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "danmu": true
+      }
+    },
+    {
+      "key": "盘搜弹幕",
+      "name": "盘搜|4k",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      }
     },
     {
       "key": "小纸条弹幕",
-      "name": "纸条|弹幕",
+      "name": "纸条|4k",
       "type": 3,
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
@@ -433,119 +522,6 @@
       "ext": {
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "danmu": true
-      }
-    },
-    {
-      "key": "UC",
-      "name": "优汐|搜搜",
-      "type": 3,
-      "api": "csp_UuSs",
-      "jar": "./lib/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "PanSso",
-      "name": "盘他|三盘",
-      "type": 3,
-      "api": "csp_PanSso",
-      "jar": "./lib/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "YpanSo",
-      "name": "盘她|三盘",
-      "type": 3,
-      "api": "csp_YpanSo",
-      "jar": "./lib/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "xzso",
-      "name": "盘它|三盘",
-      "type": 3,
-      "api": "csp_xzso",
-      "jar": "./lib/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "米搜",
-      "name": "米搜|夸父",
-      "type": 3,
-      "api": "csp_MIPanSo",
-      "jar": "./lib/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "夸搜",
-      "name": "夸搜|夸父",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "jar": "./lib/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "pan": "quark",
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "Aliso",
-      "name": "盘搜|阿狸",
-      "type": 3,
-      "api": "csp_Aliso",
-      "jar": "./lib/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
-      "key": "YiSo",
-      "name": "易搜|阿狸",
-      "type": 3,
-      "api": "csp_YiSo",
-      "jar": "./lib/fty.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
       }
     }
   ],
@@ -571,27 +547,27 @@
       "url": "https://jx.0v.fit/api.php?url="
     },
     {
-      "name": "虎斑3",
+      "name": "全网",
+      "type": 1,
+      "url": " http://jx.hjfggzs.top:80/api/diy/?key=vCCUQUy5UglzLBXK3W&url="
+    },
+    {
+      "name": "虎斑",
       "type": 0,
       "url": "     http://154.44.26.196/player/qu.php?v="
     },
     {
-      "name": "巧技2",
+      "name": "巧技",
       "type": 1,
       "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url="
     },
     {
-      "name": "小米高清",
-      "type": 1,
-      "url": "https://www.mpanso.com/muou/qilin.php?url="
-    },
-    {
-      "name": "80高清",
+      "name": "80",
       "type": 0,
       "url": "https://www.8090g.cn/jiexi/?url="
     },
     {
-      "name": "m3高清",
+      "name": "m3",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url="
     },
@@ -645,14 +621,27 @@
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
-      "name": "电视直播",
+      "name": "IPTV直播",
       "type": 0,
-      "url": "https://tv.iill.top/m3u/Gather"
+      "url": "https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     },
     {
-      "name": "网络直播",
+      "name": "电视IPV6",
       "type": 0,
-      "url": "https://tv.iill.top/m3u/Live"
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "欧歌IPV6",
+      "type": 0,
+      "url": "https://xn--pggp-rp5imh.v.nxog.top/m//tv/"
+    },
+    {
+      "name": "开心IPV6",
+      "type": 0,
+      "url": "http://kxrj.site:55/lib/kx2024.txt"
     },
     {
       "name": "IPV6",

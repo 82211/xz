@@ -265,23 +265,23 @@
       "key": "皮皮虾",
       "name": "皮皮虾|4k",
       "type": 3,
-      "api": "./影/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "./影/皮皮虾.js"
+      "ext": "./js/皮皮虾.js"
     },
     {
       "key": "光影",
       "name": "光影|4k",
       "type": 3,
-      "api": "./影/drpy2.min.js",
+      "api": "./lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "./影/光影.js"
+      "ext": "./js/光影.js"
     },
     {
       "key": "爱奇艺弹幕",
@@ -431,7 +431,7 @@
       "jar": "./lib/wex.jar",
       "searchable": 1,
       "changeable": 0
-    },,
+    },
     {
       "key": "我的阿里",
       "name": "我的|阿里",

@@ -262,6 +262,28 @@
       "ext": "./lib/芒果弹幕.js"
     },
     {
+      "key": "皮皮虾",
+      "name": "皮皮虾|4k",
+      "type": 3,
+      "api": "./影/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./影/皮皮虾.js"
+    },
+    {
+      "key": "光影",
+      "name": "光影|4k",
+      "type": 3,
+      "api": "./影/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./影/光影.js"
+    },
+    {
       "key": "爱奇艺弹幕",
       "name": "爱奇|4k",
       "type": 3,

@@ -110,7 +110,7 @@
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://feimaouc.cloud:666",
+        "site": "http://1.95.79.193/",
         "danmu": true
       }
     },
@@ -209,6 +209,22 @@
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
         "site": "https://vip.omii.top/",
+        "danmu": true
+      }
+    },
+    {
+      "key": "虎斑",
+      "name": "虎斑|4K",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "http://wp.huban.xyz",
         "danmu": true
       }
     },
@@ -548,6 +564,21 @@
     }
   ],
   "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "优选4k",
+      "type": 1,
+      "url": "http://1.94.221.189:88/algorithm.php?url="
+    },
     {
       "name": "全网4k",
       "type": 1,
